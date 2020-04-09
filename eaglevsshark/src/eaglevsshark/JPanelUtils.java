@@ -22,7 +22,7 @@ public class JPanelUtils extends JPanel implements ActionListener {
 	private Image board, evs, startImage, eagleImage, sharkImage, rollingDiceImage, diceImage;
 	private int dimOfCell;
 	private List<BoxDimensions> boxDimensions = new ArrayList<BoxDimensions>();
-	private int sharkPosition[] = {0,0,0};
+	private int sharkPosition[] = {99,98,97};
 	private int eaglePosition[] = {0,0,0};
 
 	private JButton aboutUsButton, rollDiceButton, resetButton, startButton;
@@ -220,6 +220,7 @@ public class JPanelUtils extends JPanel implements ActionListener {
 			eagle1.setEnabled(false);
 			eagle2.setEnabled(false);
 			eagle3.setEnabled(false);
+		    tx1.setText("winner is "+winner);
 		}
 
 	}
@@ -298,6 +299,7 @@ public class JPanelUtils extends JPanel implements ActionListener {
 			rollDiceButton.setEnabled(false);
 
 			startButton.setEnabled(true);
+			tx1.setText("Game to Be started");
 
 		}
 		if (e.getSource() == startButton) {
