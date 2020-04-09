@@ -22,7 +22,7 @@ public class JPanelUtils extends JPanel implements ActionListener {
 	private Image board, evs, startImage, eagleImage, sharkImage, rollingDiceImage, diceImage;
 	private int dimOfCell;
 	private List<BoxDimensions> boxDimensions = new ArrayList<BoxDimensions>();
-	private int sharkPosition[] = {99,98,97};
+	private int sharkPosition[] = {0,0,0};
 	private int eaglePosition[] = {0,0,0};
 
 	private JButton aboutUsButton, rollDiceButton, resetButton, startButton;
