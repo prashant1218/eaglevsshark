@@ -213,6 +213,13 @@ public class JPanelUtils extends JPanel implements ActionListener {
 		}
 		if(isPalyerWin()) {
 			String winner = getNameOfPlayerWin();
+			rollDiceButton.setEnabled(false);
+			shark1.setEnabled(false);
+			shark2.setEnabled(false);
+			shark3.setEnabled(false);
+			eagle1.setEnabled(false);
+			eagle2.setEnabled(false);
+			eagle3.setEnabled(false);
 		}
 
 	}
