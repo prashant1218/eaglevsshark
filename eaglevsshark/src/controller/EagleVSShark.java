@@ -1,4 +1,4 @@
-package eaglevsshark;
+package controller;
 
 public class EagleVSShark {
 	

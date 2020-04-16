@@ -1,4 +1,4 @@
-package eaglevsshark;
+package view;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -13,6 +13,12 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
+
+import model.BoxDimensions;
+import model.Dice;
+import model.Eagle;
+import model.Player;
+import model.Shark;
 
 public class JPanelUtils extends JPanel implements ActionListener {
 

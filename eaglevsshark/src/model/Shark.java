@@ -1,4 +1,4 @@
-package eaglevsshark;
+package model;
 
 public class Shark implements Player {
 
