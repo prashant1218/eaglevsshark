@@ -188,9 +188,9 @@ public class JPanelUtils extends JPanel implements ActionListener {
 		graphics.drawImage(evs, 910, 30, 100, 700, this);
 
 		graphics.drawImage(startImage, 10, 620, 200, 80, this);
-
-		graphics.drawImage(eagleImage, 10, 280, this);
-		graphics.drawImage(sharkImage, 10, 360, this);
+		
+		graphics.drawImage(sharkImage, 10, 280, this);
+		graphics.drawImage(eagleImage, 10, 360, this);
 
 		graphics.drawImage(rollingDiceImage, 10, 420, this);
 		graphics.drawImage(diceImage, 110, 420, this);
