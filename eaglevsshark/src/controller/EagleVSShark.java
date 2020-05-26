@@ -1,14 +1,21 @@
 package controller;
 
-public class EagleVSShark {
+import view.ViewService;
+
+/*Main Class defines the frame
+  size of Frame
+  Title of Frame
+  Visiblity of Frame*/
+public class EagleVSShark{
 	
 	public static void main(String args[]) {
 		
-		BoardUtils boardUtils = new BoardUtils();
-		boardUtils.setVisible(true);
-		boardUtils.setBounds(200, 100, 1000, 735);
-		boardUtils.setDefaultCloseOperation(boardUtils.EXIT_ON_CLOSE);
-		boardUtils.setTitle("Eagle VS Shark");
+		ViewService viewService = new ViewService();  
+		viewService.setVisible(true);
+		viewService.setBounds(200, 100, 1000, 735);
+		viewService.setDefaultCloseOperation(viewService.EXIT_ON_CLOSE);
+		viewService.setTitle("Eagle VS Shark");
+		
 	}
 
 }

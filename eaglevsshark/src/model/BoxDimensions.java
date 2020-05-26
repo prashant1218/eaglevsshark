@@ -1,5 +1,9 @@
 package model;
 
+/*Defines all the dimensions of Boxes 
+present in Board and also 
+contains boxNo*/
+
 public class BoxDimensions {
 	
 	private int x;
